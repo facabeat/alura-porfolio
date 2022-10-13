@@ -1,0 +1,318 @@
+:root {
+    --colorDeFondo: #F5F5F5;
+    --colorDeLink: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--colorDeFondo);
+    font-family: 'Raleway';
+    margin: 2rem 9.5rem;
+    line-height: 1;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorDeLink);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+  }
+
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+  nav li a:hover {
+    background: rgb(196, 196, 196);
+    color: white;
+  }
+
+  .title__bio{
+    font-size: 3.25rem;
+  }
+  
+  .title__subsection{
+    font-size: 1.6rem
+  }
+
+  .title__profile{
+   float: right;
+    border-radius: 100%;
+    width: 12rem;
+  }
+  
+  .title__network{
+    display: flex;
+    justify-content: center;  
+    
+  }
+
+  .title__network__item{
+    margin-left: 1rem;
+  }
+
+  .title__network__item:hover{
+    background: rgb(196, 196, 196);
+    color: white;
+  }
+
+  .about__title{
+    font-size: 1.5rem;
+    font-style: bold;
+    border-bottom: 2px solid black;
+  }
+
+
+    .skills__title{
+    font-size: 1.5rem;
+    font-style: bold;
+    text-decoration: underline black;
+    border-bottom: 2px  black;
+    margin-top: 3rem;
+  }
+
+ .skills__line{
+    display: flex;
+    justify-content: center; 
+ }
+
+ .img__code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .academic__title{
+    font-size: 1.5rem;
+    font-style: bold;
+    text-decoration: underline black;
+    margin-top: 3rem;
+
+ }
+
+ .academic__courses__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+.name__course{
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: center;
+ }
+
+ .experience__section__title{
+    font-size: 1.5rem;
+    font-style: bold;
+    border-bottom: 2px solid black;
+ }
+
+ .experience__title{
+    text-align: center;
+    margin-top: 3rem;
+ }
+
+ .experience__img__encriptador{
+    width: 36rem;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .experience__img__ahorcado{
+    width: 44rem;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .experience__description{
+  display: flex;
+  justify-content: center;
+ }
+
+ .experience__info{
+  display: flex;
+  justify-content: center;
+ }
+
+ .experiencia__boton--repo{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+  margin-top: 3rem;
+
+ }
+ .experiencia__boton--repo:hover {
+  background: rgb(196, 196, 196);
+  color: white;
+}
+
+.experience__boton--demo{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+  margin-top: 3rem;
+}
+
+.experience__boton--demo:hover {
+  background: rgb(196, 196, 196);
+  color: white;
+}
+
+.hobbies__title{
+    font-size: 1.5rem;
+    font-style: bold;
+    border-bottom: 2px solid black;
+}
+
+.hobbies__line{
+  display: flex;
+  justify-content: center;
+}
+.formcontato__title{
+  margin-top: 5rem;
+  
+}
+
+.formcontato__title{
+  margin-top: 2rem;
+  text-decoration: underline;
+
+}
+
+.footer{
+  background-color: #000;
+  margin-top: 5rem;
+  color: white;
+}
+
+
+.footer__rodape{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.formcontato__subtext{
+    font-size: 1.5rem;
+    font-style: bold;
+    border-bottom: 2px solid black;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+.formcontato__botao{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+  margin-top: 3rem;
+}
+
+.formcontato__botao:hover {
+  background: rgb(196, 196, 196);
+  color: white;
+}
+
+@media (max-width:600px){
+  nav ul {
+  flex-direction: column;
+  }
+}
